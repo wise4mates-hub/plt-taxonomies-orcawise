@@ -27,39 +27,38 @@ plt-taxonomies-orcawise/
 ├── references/    # Research papers, articles, and notes
 └── README.md      # Project overview
 
----
+🧠 Methodology
+1. Semantic Analysis
 
-## 🧠 Methodology
-
-### 1. Semantic Analysis
-Use transformer-based models (e.g. **BERT**, **RoBERTa**) to identify and cluster semantically related terms.  
+Use transformer-based models (e.g. BERT, RoBERTa) to identify and cluster semantically related terms.
 Compute cosine similarity and build term-to-concept mappings.
 
-### 2. Taxonomy Extraction
-Apply hierarchical clustering and rule-based extraction to build domain-specific taxonomies.  
+2. Taxonomy Extraction
+
+Apply hierarchical clustering and rule-based extraction to build domain-specific taxonomies.
 Integrate keyword taxonomy generation for better NLP model interpretability.
 
-### 3. Plain Language Techniques
-Simplify complex or technical text using paraphrasing models.  
-Evaluate simplification quality via readability metrics (e.g. **FKGL**, **SARI**).
+3. Plain Language Techniques
+
+Simplify complex or technical text using paraphrasing models.
+Evaluate simplification quality via readability metrics (e.g. FKGL, SARI).
+
 
 ---
 
-## 🧮 Model Audit
-Bias detection and interpretability using **SHAP** and **LIME**.  
-Evaluate model fairness, explainability, and consistency with Orcawise standards.
+### ⚙️ Explanation:
+- The key fix is adding a **closing triple backtick (` ``` `)** right after the project structure tree.
+- Without that, everything below is interpreted as part of the code block — causing gray background and no Markdown formatting.
 
 ---
 
-## 🔗 Data Sources
-- Internal Orcawise datasets (if applicable).  
-- Open datasets (e.g. Wikipedia, academic corpora, PaperWithCode abstracts).  
-- Domain-specific vocabularies and taxonomies (e.g. WordNet, ConceptNet).  
+### ✅ Quick test:
+When you paste this version into your `README.md` and preview it, you should see:
+- “🧠 Methodology” in **bold heading style**, not gray.
+- Subheadings (1, 2, 3) as clean titles with normal text beneath.
+- Proper spacing and emoji rendering.
 
 ---
 
-## 🚀 Getting Started
-### 1. Clone the Repository
-```bash
-git clone https://github.com/wise4mates-hub/plt-taxonomies-orcawise.git
-cd plt-taxonomies-orcawise
+Would you like me to add collapsible `<details>` sections next (so that “Semantic Analysis”, “Taxonomy Extraction”, etc. can expand/collapse nicely)? It looks amazing for long research documentation.
+
