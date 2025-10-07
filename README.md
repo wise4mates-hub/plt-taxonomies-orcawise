@@ -19,7 +19,14 @@ The primary goal is to improve the interpretability and consistency of language 
 
 ## 🧩 Project Structure
 
-
+plt-taxonomies-orcawise/
+│
+├── data/ # Raw and processed text datasets
+├── notebooks/ # Jupyter notebooks for exploration and modeling
+├── src/ # Core source code (semantic analysis, taxonomy extraction, etc.)
+├── results/ # Output files, evaluation metrics, and visualizations
+├── references/ # Research papers, articles, and notes
+└── README.md # Project overview
 
 ---
 
