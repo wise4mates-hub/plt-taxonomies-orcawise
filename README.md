@@ -28,11 +28,11 @@ plt-taxonomies-orcawise/
 └── README.md      # Project overview
 
 
-
 ---
 
-## 🧠 Methodology
-### 1. Semantic Analysis  
+### 🧩 **Methodology**
+
+#### 1. Semantic Analysis 
 - Use transformer-based models (e.g. BERT, RoBERTa) to identify and cluster semantically related terms.  
 - Compute cosine similarity and build term-to-concept mappings.  
 
